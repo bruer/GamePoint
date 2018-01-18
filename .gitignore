@@ -3,3 +3,4 @@ css/
 *.css.map
 *.css
 .DS_Store
+prepros-6.config
