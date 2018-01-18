@@ -1,0 +1,16 @@
+@import "header";
+@import "footer";
+
+.img-container{
+  //display: flex;
+  //justify-content: center;
+  //top: 6em;
+  .headline{
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+  }
+}
