@@ -10,3 +10,22 @@ header {
   // position: fixed;
   // width: 100%;
 }
+
+.top-menu {
+  display: none;
+}
+
+@media screen and (min-width: 570px) {
+  nav {
+    // border: solid white;,
+    width: 75%;
+
+    .top-menu {
+      // width: 100%;
+      display: flex;
+      justify-content: space-between;
+      // color: white;
+      font-size: 2em;
+    }
+  }
+}

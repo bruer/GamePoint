@@ -156,3 +156,12 @@
 {
   transform: none;
 }
+
+@media screen and (min-width: 570px) {
+
+  #menuToggle {
+    span {
+      display: none;
+    }
+  }
+}
