@@ -30,34 +30,16 @@ footer {
       display: none;
     }
   }
+
   @media (min-width: 768px){
     img, h2, p{
       display: none;
     }
+    .info {
+      // border: solid;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
     }
-
-
-  // .contact {
-  //   display: flex;
-  //   justify-content: space-between;
-  //   margin-bottom: 2em;
-  // }
-  //
-  // h3 {
-  //   color: gray;
-  // }
-  //
-  // li {
-  //   margin: .2em;
-  // }
-  //
-  // a {
-  //   color: white;
-  // }
-  //
-  // p {
-  //   margin: 0;
-  //   font-size: .8em;
-  //   text-align: center;
-  // }
+  }
 }

@@ -10,31 +10,31 @@ header {
   // position: fixed;
   // width: 100%;
   h1 {
+    width: 20%;
+    text-align: center;
     top: 1rem;
     right: 1rem;
     position: absolute;
   }
 }
 
-
-
 .meny {
-  margin: 0 auto;
+  width: 80%;
+
+  ul {
+    display: flex;
+    justify-content: space-around;
+  }
 
   a {
+  margin: 1em;
   text-decoration: none;
   color: #ffffff;
   text-transform: uppercase;
   font-weight: bold;
   font-size: 1.3em;
   }
-
-  li {
-    display: inline;
-    margin: 30px;
-  }
 }
-
 
 .meny a:hover {
   color: red;
