@@ -1,4 +1,5 @@
 .img-container {
+  top: 0;
   width: 100%;
   height: auto;
 
@@ -59,5 +60,11 @@
 
   h3 {
     margin-bottom: 1em;
+  }
+}
+
+@media (min-width: 760px) {
+  .img-container {
+    
   }
 }
