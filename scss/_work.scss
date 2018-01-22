@@ -34,7 +34,8 @@
   display: block;
 }
 
-@media screen and (min-width: 570px) {
+
+@media screen and (min-width: 760px) {
   .work-img-wrap {
     width: 40%;
   }
@@ -43,5 +44,9 @@
 @media screen and (min-width: 990px) {
   .work-img-wrap {
     width: 30%;
+  }
+
+  .work-flex{
+    flex:3;
   }
 }
