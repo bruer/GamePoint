@@ -1,9 +1,13 @@
 @import "reset";
-@import "header";
+@import "mixin";
+@import "variabler";
+
 @import "hamburger-menu";
+@import "header";
+@import "start";
 @import "footer";
+
 @import "about";
 @import "work-example";
-
-@import "start";
 @import "contact";
+@import "work";

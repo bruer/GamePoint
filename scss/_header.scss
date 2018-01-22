@@ -5,27 +5,53 @@ header {
   height: 5em;
   padding: 2em;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   // position: fixed;
   // width: 100%;
+  h1 {
+    top: 1rem;
+    right: 1rem;
+    position: absolute;
+  }
 }
 
-.top-menu {
-  display: none;
+
+
+.meny {
+
 }
 
-@media screen and (min-width: 570px) {
-  nav {
-    // border: solid white;,
-    width: 75%;
+.meny a {
+  text-decoration: none;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1.3em;
+}
 
-    .top-menu {
-      // width: 100%;
-      display: flex;
-      justify-content: space-between;
-      // color: white;
-      font-size: 2em;
-    }
+.meny li {
+  display: inline;
+  margin: 30px;
+}
+
+.meny a:hover {
+  color: red;
+  transition: all .3s ease;
+}
+
+@media (min-width: 300px) {
+  .meny {
+    display: none;
+  }
+}
+
+@media (min-width: 760px) {
+  .meny {
+    display: block;
+  }
+
+  header {
+
   }
 }
