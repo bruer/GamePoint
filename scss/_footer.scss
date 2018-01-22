@@ -25,6 +25,19 @@ footer {
     width: 40%;
   }
 
+  @media (min-width: 768px){
+    img, h2, p{
+      display: none;
+    }
+
+    .info{
+      display: flex;
+      align-content: flex-end;
+      margin: 10em;
+
+    }
+  }
+
   // .contact {
   //   display: flex;
   //   justify-content: space-between;
