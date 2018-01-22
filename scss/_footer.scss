@@ -40,6 +40,19 @@ footer {
       width: 100%;
       display: flex;
       justify-content: space-between;
+      margin: 10em;
+
+      ul{
+        letter-spacing: 0.1em;
+      }
+
+    h4{
+      text-transform: uppercase;
+    }
+
+    a li{
+        color: white;
+      }
     }
   }
 }
