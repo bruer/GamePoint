@@ -64,7 +64,20 @@
 }
 
 @media (min-width: 760px) {
-  .img-container {
+  .img-container {´
 
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 760px) {
+  .img-wrap {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 990px) {
+  .img-wrap {
+    width: 33.3%;
   }
 }
