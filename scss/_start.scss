@@ -71,12 +71,7 @@
   }
 }
 
-@media (min-width: 760px) {
-  .img-container {
-
-    width: 100%;
-
-    @media screen and (min-width: 570px) {
+@media screen and (min-width: 570px) {
   .front-page-text-wrapper {
     p {
       width: 50%;
