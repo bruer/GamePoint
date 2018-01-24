@@ -50,8 +50,12 @@ header {
   .meny {
     display: block;
   }
+}
 
-  header {
 
+@media screen and (min-width: 990px) {
+  .meny {
+    margin: 0 auto;
+    max-width: 50%;
   }
 }
