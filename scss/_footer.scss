@@ -23,6 +23,10 @@ footer {
     // width: 274px;
     // height: 154px;
     width: 40%;
+
+  a:hover{
+    color: black;
+  }
   }
 
   @media(max-width: 768px){
@@ -39,7 +43,8 @@ footer {
       // border: solid;
       width: 100%;
       display: flex;
-      justify-content: space-between;
+      justify-content: space-evenly;
+      text-align: left;
       margin: 10em;
 
       ul{
@@ -48,10 +53,11 @@ footer {
 
     h4{
       text-transform: uppercase;
+      color: #ae9f9f;
     }
 
     a li{
-        color: pink;
+        color: white;
       }
     }
   }
