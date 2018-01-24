@@ -1,13 +1,14 @@
-@import "reset";
-@import "mixin";
-@import "variabler";
+@import "helpers/mixin";
+@import "helpers/variables";
 
-@import "hamburger-menu";
-@import "header";
-@import "start";
-@import "footer";
+@import "layout/reset";
+@import "layout/header";
+@import "layout/footer";
 
-@import "about";
-@import "work-example";
-@import "contact";
-@import "work";
+@import "components/hamburger-menu";
+
+@import "pages/start";
+@import "pages/about";
+@import "pages/work";
+@import "pages/work-example";
+@import "pages/contact";
