@@ -18,6 +18,7 @@ header {
 }
 
 .meny {
+  display: none;
   width: 80%;
 
   ul {
@@ -42,7 +43,7 @@ header {
 
 @media (min-width: 300px) {
   .meny {
-    display: none;
+    // display: none;
   }
 }
 

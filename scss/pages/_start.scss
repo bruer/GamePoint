@@ -1,17 +1,28 @@
 .img-container {
-  top: 0;
-  width: 100%;
-  height: auto;
+  // top: 0;
+  // width: 100%;
+  // height: auto;
+}
 
-  .logo {
-    width: 60%;
-    position: absolute;
-    top: 7em;
-    left: 0;
-    right: 0;
-    margin-left: auto;
-    margin-right: auto;
-  }
+.top-img {
+  // display: flex;
+  // justify-content: center;
+  // border: solid white;
+  position: relative;
+}
+
+.logo {
+  // border: solid white;
+  width: 60%;
+  position: absolute;
+  margin: 0;
+  top: 10%;
+  left: 20%;
+  // top: 7em;
+  // left: 0;
+  // right: 0;
+  // margin-left: auto;
+  // margin-right: auto;
 }
 
 .front-page-text-wrapper {
@@ -99,14 +110,14 @@
     width: 33.3%;
   }
 
-//  .front-page-text-wrapper {
-  //  p {
+  .front-page-text-wrapper {
+    p {
       // width: 50%;
       // font-size: 1em;
-    //}
-  //}
+    }
+  }
 
-  .text-wrap{
+  .text-wrap {
     font-size: 1em;
   }
 

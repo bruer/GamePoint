@@ -3,8 +3,8 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="css/styles.css">
-    <title>About</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <title>Contact</title>
   </head>
   <body>
 
@@ -36,43 +36,62 @@
       <h1>Game Point</h1>
     </header>
 
-    <div class="full-wrapper">
-    <div class="img-container">
+    <div class="contact-main">
 
-      <div class="top-img">
-        <img class="logo" src="img/logo-gp.png" alt="logo game point">
-        <img class="background-image" src="img/business-people.jpg"
-        alt="Business people">
-      </div>
+      <h1>contact</h1>
+      <h2>get in touch</h2>
 
-      <div class="about-wrapper">
-        <h3> Our capabilities </h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-           ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-           aliquip ex ea commodo consequat. Duis aute irure dolor in
-           reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-           pariatur. Excepteur sint occaecat cupidatat non proident,
-           sunt in culpa qui officia deserunt mollit anim id est laborum.
-        </p>
-
-        <h3>Solving problems together</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-          ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum.
-        </p>
+      <form action="index.html" method="post">
+        <div class="row">
+          <div class="col-25">
+            <label for="name">name</label>
+          </div>
+          <div class="col-75">
+            <input type="text" name="name" id="name" required>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-25">
+            <label for="company">company</label>
+          </div>
+          <div class="col-75">
+            <input type="text" name="company" id="company" required>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-25">
+            <label for="email">email</label>
+          </div>
+          <div class="col-75">
+            <input type="email" name="email" id="email" required>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-25">
+            <label for="phone">phone</label>
+          </div>
+          <div class="col-75">
+            <input type="tel" name="phone" id="phone" required>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-25">
+            <label for="message">leave a message</label>
+          </div>
+          <div class="col-75">
+            <textarea name="message" id="message" rows="5"></textarea>
+          </div>
+        </div>
+        <div class="row">
+          <input class="submit" type="submit" value="send message">
+          </div>
+        </div>
+      </form>
 
     </div>
-  </div>
-
-
 
     <footer>
-      <img src="img/logo-gp.png" alt="logo game point">
+      <img src="../img/logo-gp.png" alt="logo game point">
       <h2>game point - <i>slogan</i> </h2>
       <p>copyright 2017-2018</p>
 
@@ -104,6 +123,7 @@
             <a href="contact.html"><li>Contact</li></a>
           </ul>
         </div>
+      </div>
 
     </footer>
   </body>
