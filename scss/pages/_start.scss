@@ -12,13 +12,8 @@
 }
 
 .logo {
+  @extend %logo;
   // border: solid white;
-  width: 60%;
-  position: absolute;
-  margin: 0;
-  top: 10%;
-  left: 20%;
-  // top: 7em;
   // left: 0;
   // right: 0;
   // margin-left: auto;
@@ -28,27 +23,22 @@
 .front-page-text-wrapper {
   // border: solid;
   @extend %front-page-text-wrapper;
-}
   h1 {
     margin: 1em;
     text-align: center;
   }
   p {
-    // border: solid;
-    text-align: center;
-    margin: 0 1em 1em 1em;
-    line-height: 1.5;
-    font-size: .9em;
+    @extend %p-text;
   }
 }
 
 .img-wrap {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  text-align: center;
-  align-items: center;
-}
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
 
 .background-image {
   background-repeat: no-repeat;

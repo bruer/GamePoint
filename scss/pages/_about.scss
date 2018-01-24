@@ -1,15 +1,17 @@
-.about-wrapper{
+@extend %front-page-text-wrapper{
   margin: 2em;
   line-height: 1.5em;
   font-weight: 200;
+}
   h3{
   text-align: center;
   padding: 1em;
   text-transform: uppercase;
   }
   p{
-  text-align: left;
-  }
+  //text-align: left;
+  @extend %p-text;
+}
 }
 
 
