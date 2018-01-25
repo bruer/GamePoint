@@ -21,14 +21,22 @@
 }
 
 %front-page-text-wrapper{
+  padding: 3em;
   min-height: 15em;
   display: flex;
   flex-direction: column;
   align-items: center;
-  line-height: 1.5em;
+  text-align: center;
+  line-height: 1.5;
   font-weight: 200;
-  padding: 3em;
+  // margin: 0 1em 1em 1em;
+  // font-size: .9em;
+
   //kanske ändra padding
+
+  h2 {
+    margin-bottom: 1em;
+  }
 }
 
 %center {

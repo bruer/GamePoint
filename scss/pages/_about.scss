@@ -12,6 +12,10 @@
   }
 }
 
+.about-text-box {
+  @extend %front-page-text-wrapper;
+}
+
 
 @media screen and (min-width: 990px) {
   .about-wrapper {
