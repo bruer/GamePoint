@@ -1,32 +1,31 @@
-main {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.contact-main {
+  @extend %center;
 
   h1 {
     margin-top: 1em;
   }
 
   h2 {
-    margin: 3em 0 0;
+    margin: 2em;
   }
 
   form {
-    margin: 3em;
-    padding: 1em;
     width: 75%;
+    margin: 1em;
+    padding: 1em;
     border: 1px solid lightgray;
     border-radius: 3px;
     display: flex;
     flex-direction: column;
     align-items: center;
+
+    line-height: $lh;
+    font-weight: $fw;
   }
 
   .row {
+    @extend %center;
     width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
   }
 
   .col-75 {
@@ -36,40 +35,33 @@ main {
   input, textarea {
     border: none;
     outline: none;
+    resize: none;
+
     width: 100%;
     padding: 1em;
     margin: 10px 0 20px;
     border-radius: 3px;
     background: lightgray;
-  }
 
-  textarea {
-    resize: none;
+    &:focus {
+      border: 2px solid red;
+    }
   }
 
   .submit {
     font-size: .8em;
     background: seagreen;
     color: white;
-  }
 
-  input:focus {
-    border-bottom: 2px solid coral;
-  }
-
-  textarea:focus {
-    border: 2px solid coral;
-  }
-
-  input[type=submit]:focus {
-    border: none;
-    background: mediumseagreen;
+    &:focus {
+      border: none;
+      background: mediumseagreen;
+    }
   }
 
   @media (min-width: 600px) {
 
     .row {
-      // display: flex;
       flex-direction: row;
       justify-content: flex-end;
     }
@@ -86,8 +78,6 @@ main {
 
     .submit {
       width: 25%;
-      // align-items: flex-end;
-      // justify-content: flex-end;
     }
   }
 }

@@ -2,28 +2,6 @@
   @extend %front-page-text-wrapper;
 }
 
-.img-container{
-  // display: flex;
-  // flex-direction: column;
-  // justify-content: center;
-  // align-items: center;
-
-  position: relative;
-}
-
-// .logo-container {
-//   position: absolute;
-// }
-
-.headline {
-  // top: 75%;
-  // left: 10%;
-  // position: absolute;
-  // color: white;
-  // text-transform: uppercase;
-  // letter-spacing: 0.1em;
-}
-
 .logo-wrap {
 
   img {
@@ -31,14 +9,15 @@
   }
 
   h2 {
-    font-size: 1em;
-    color: white;
-    text-shadow: 5px 3px 3px black;
     position: absolute;
     top: 70%;
     left: 0;
     width: 100%;
     text-align: center;
+
+    font-size: 1em;
+    color: white;
+    text-shadow: $ts;
   }
 }
 
