@@ -4,11 +4,20 @@
   height: auto;
 }
 
-%logo{
+%logo-img{
+  // border: solid white;
   width: 60%;
+  max-width: 30em;
   position: absolute;
-  margin: 0;
-  top: 10%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+%background-image {
+  width: 100%;
+  max-height: 40em;
+  object-fit: cover;
 }
 
 %front-page-text-wrapper{
@@ -20,5 +29,11 @@
   font-weight: 200;
   padding: 3em;
   //kanske ändra padding
+}
 
+%center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }

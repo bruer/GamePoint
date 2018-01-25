@@ -1,0 +1,21 @@
+.logo-wrap {
+  // border: solid white;
+  position: relative;
+}
+
+.background-image {
+  @extend %background-image;
+}
+
+.logo-img {
+  @extend %logo-img;
+}
+
+.logo-img {
+  // border: solid white;
+  width: 60%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
