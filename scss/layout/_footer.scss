@@ -21,8 +21,19 @@ footer {
     font-size: .5em;
   }
 
-  img {
+
+  .footerlogo {
     width: 40%;
+  }
+
+  .twitter-logo{
+    width: 17%;
+    margin-right: 0.5em;
+  }
+
+  .fb-logo{
+    width: 10%;
+    margin-right: 0.5em;
   }
 
   a {
@@ -47,7 +58,7 @@ footer {
 
   @media (min-width: 768px){
 
-    img, h2, p {
+    .footerlogo, h2, p {
       display: none;
     }
 
