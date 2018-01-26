@@ -6,6 +6,10 @@ footer {
   background: black;
   color: white;
 
+  ul {
+    margin: 5em;
+  }
+
   h2 {
     font-size: 1em;
     letter-spacing: 2px;
@@ -31,7 +35,6 @@ footer {
 
   .info {
     display: none;
-    width: 100%;
     text-align: left;
     margin: 10em;
     letter-spacing: 0.1em;
