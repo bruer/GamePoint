@@ -1,19 +1,20 @@
 .logo-wrap {
-  // border: solid white;
   position: relative;
 }
 
 .background-image {
-  @extend %background-image;
+  // @extend %background-image;
+
+  width: 100%;
+  max-height: 38em;
+  object-fit: cover;
 }
 
 .logo-img {
-  @extend %logo-img;
-}
+  // @extend %logo-img;
 
-.logo-img {
-  // border: solid white;
   width: 60%;
+  max-width: 30em;
   position: absolute;
   top: 50%;
   left: 50%;

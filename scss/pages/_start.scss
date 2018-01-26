@@ -1,5 +1,5 @@
 .start-text-box {
-  @extend %front-page-text-wrapper;
+  // @extend %front-page-text-wrapper;
 }
 
 .img-wrap {
@@ -9,10 +9,12 @@
 
 .text-wrap {
   position: absolute;
+  font-size: .7em;
   color: white;
   text-shadow: 5px 3px 3px black;
 
   a {
+    font-size: 1.2em;
     color: white;
     margin-top: 1em;
     padding: .5em 3em;
@@ -20,20 +22,20 @@
     outline: 1px gray solid;
   }
 
-  h3 {
-    margin-bottom: 1em;
+  h2 {
+    margin: 0;
   }
 }
 
 @media screen and (min-width: 760px) {
   .text-wrap {
-    font-size: 1.5em;
+    font-size: 1em;
   }
 }
 
 @media screen and (min-width: 990px) {
   .text-wrap {
-    font-size: 1em;
+    font-size: .7em;
   }
 
   .work-showcase {

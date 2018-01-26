@@ -1,5 +1,5 @@
 .work-example-text-box {
-  @extend %front-page-text-wrapper;
+  // @extend %front-page-text-wrapper;
 }
 
 .logo-wrap {
@@ -21,10 +21,18 @@
   }
 }
 
-@media screen and (min-width: 570px) {
+@media screen and (min-width: 500px) {
   .logo-wrap {
     h2 {
       font-size: 1.5em;
+    }
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .logo-wrap {
+    h2 {
+      font-size: 2em;
     }
   }
 }
