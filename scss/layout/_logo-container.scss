@@ -1,3 +1,11 @@
+@supports not (display: flex) {
+  .img-wrap {
+    float: right;
+  }
+}
+
+
+
 .logo-wrap {
   position: relative;
 }
@@ -18,4 +26,8 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+.img-wrap {
+  width: 33.3%;
 }
