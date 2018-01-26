@@ -5,8 +5,8 @@ footer {
   // justify-content: space-around;
   text-align: center;
   padding: 1em;
-  background: black;
-  color: white;
+  background-color: $black;
+  color: $white;
 
   h2 {
     font-size: 1em;
@@ -15,7 +15,7 @@ footer {
   }
 
   p {
-    color: gray;
+    color: $grey;
     font-size: .5em;
   }
 
@@ -26,19 +26,26 @@ footer {
   }
 
   a {
-    color: black;
+    color: $black;
   }
 
   @media(max-width: 768px){
     .info{
       display: none;
     }
+    .sociallogos{
+      display: none;
+    }
   }
 
   @media (min-width: 768px){
     img, h2, p{
-      display: none;
+        display: none;
     }
+    .sociallogos{
+      width: 10%;
+    }
+
     .info {
       // border: solid;
       width: 100%;
@@ -53,12 +60,12 @@ footer {
 
     h4{
       text-transform: uppercase;
-      color: #ae9f9f;
+      color: $grey;
     }
 
-    a li{
-        color: white;
+        a li{
+            color: $white;
+        }
       }
     }
   }
-}
