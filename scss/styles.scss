@@ -5,6 +5,7 @@
 @import "layout/reset";
 @import "layout/header";
 @import "layout/footer";
+@import "layout/logo-container";
 
 @import "components/hamburger-menu";
 
@@ -13,3 +14,24 @@
 @import "pages/work";
 @import "pages/work-example";
 @import "pages/contact";
+
+h2 {
+  font-size: 2.5em;
+}
+
+h3 {
+  font-size: 1.5em;
+}
+
+h2, h3 {
+  margin: 1em;
+  text-align: center;
+}
+
+.text-box {
+  text-align: center;
+  padding: 0 3em 3em 3em;
+  min-height: 15em;
+  line-height: $lh;
+  font-weight: $fw;
+}

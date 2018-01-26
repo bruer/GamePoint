@@ -2,8 +2,6 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: center;
-  // justify-content: space-around;
-  text-align: center;
   padding: 1em;
   background-color: $black;
   color: $white;
@@ -20,18 +18,27 @@ footer {
   }
 
   img {
-    // width: 274px;
-    // height: 154px;
     width: 40%;
   }
 
   a {
-    color: $black;
+    color: white;
+    &:hover {
+      color: red;
+      transition: all .3s ease;
+    }
   }
 
-  @media(max-width: 768px){
-    .info{
-      display: none;
+  .info {
+    display: none;
+    width: 100%;
+    text-align: left;
+    margin: 10em;
+    letter-spacing: 0.1em;
+
+    h4 {
+      text-transform: uppercase;
+      color: #ae9f9f;
     }
     .sociallogos{
       display: none;
@@ -47,8 +54,6 @@ footer {
     }
 
     .info {
-      // border: solid;
-      width: 100%;
       display: flex;
       justify-content: space-evenly;
       text-align: left;
