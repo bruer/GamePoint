@@ -1,69 +1,20 @@
-.img-container {
-  // top: 0;
-  // width: 100%;
-  // height: auto;
-}
-
-.top-img {
-  // display: flex;
-  // justify-content: center;
-  // border: solid white;
-  position: relative;
-}
-
-.logo {
-  // border: solid white;
-  width: 60%;
-  position: absolute;
-  margin: 0;
-  top: 10%;
-  left: 20%;
-  // top: 7em;
-  // left: 0;
-  // right: 0;
-  // margin-left: auto;
-  // margin-right: auto;
-}
-
-.front-page-text-wrapper {
-  // border: solid;
-  @extend %front-page-text-wrapper;
-}
-  h1 {
-    margin: 1em;
-    text-align: center;
-  }
-  p {
-    // border: solid;
-    text-align: center;
-    margin: 0 1em 1em 1em;
-    line-height: 1.5;
-    font-size: .9em;
-  }
+.start-text-box {
+  // @extend %front-page-text-wrapper;
 }
 
 .img-wrap {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
+  @extend %center;
   text-align: center;
-  align-items: center;
-}
-
-.background-image {
-  background-repeat: no-repeat;
-  background-size: contain;
-  width: 100%;
-  display: block;
 }
 
 .text-wrap {
   position: absolute;
-  // font-size: 2.5em;
+  font-size: .7em;
   color: white;
   text-shadow: 5px 3px 3px black;
 
   a {
+    font-size: 1.2em;
     color: white;
     margin-top: 1em;
     padding: .5em 3em;
@@ -71,52 +22,24 @@
     outline: 1px gray solid;
   }
 
-  h3 {
-    margin-bottom: 1em;
-  }
-}
-
-@media screen and (min-width: 570px) {
-  .front-page-text-wrapper {
-    p {
-      width: 50%;
-      font-size: 1em;
-      margin-bottom: 3em;
-    }
+  h2 {
+    margin: 0;
   }
 }
 
 @media screen and (min-width: 760px) {
-
-  .front-page-text-wrapper {
-    p {
-      font-size: 1em;
-      // margin-bottom: 3em;
-    }
-  }
-
   .text-wrap {
-    font-size: 1.5em;
+    font-size: 1em;
   }
 }
 
 @media screen and (min-width: 990px) {
-  .img-wrap {
-    width: 33.3%;
-  }
-
-  .front-page-text-wrapper {
-    p {
-      // width: 50%;
-      // font-size: 1em;
-    }
-  }
-
   .text-wrap {
-    font-size: 1em;
+    font-size: .7em;
   }
 
-  .work-flex {
+  .work-showcase {
     margin-bottom: 5em;
+    display: flex;
   }
 }
