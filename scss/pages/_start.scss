@@ -10,16 +10,16 @@
 .text-wrap {
   position: absolute;
   font-size: .7em;
-  color: white;
+  color: $white;
   text-shadow: 5px 3px 3px black;
 
   a {
     font-size: 1.2em;
-    color: white;
+    color: $white;
     margin-top: 1em;
     padding: .5em 3em;
     border: 1px solid;
-    outline: 1px gray solid;
+    outline: 1px $gray solid;
   }
 
   h2 {
