@@ -1,6 +1,10 @@
 .about-main {
   // @extend %front-page-text-wrapper;
 
+  p{
+    text-transform: none;
+  }
+
   h2 {
     font-size: 1.2em;
   }
