@@ -1,10 +1,10 @@
 .logo-wrap {
+  width: 100%;
   position: relative;
 }
 
 .background-image {
-  // @extend %background-image;
-  width: 100%;
+  @extend %background-image;
   max-height: 38em;
   object-fit: cover;
 }

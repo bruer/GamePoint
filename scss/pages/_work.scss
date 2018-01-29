@@ -8,6 +8,10 @@
     margin: .5em;
   }
 
+  img {
+    @extend %background-image;
+  }
+
   h3 {
     text-transform: uppercase;
     font-size: 1em;
