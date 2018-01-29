@@ -39,4 +39,8 @@ h2, h3 {
   min-height: 15em;
   line-height: $lh;
   font-weight: $fw;
+
+  p {
+    text-transform: none;
+  }
 }
