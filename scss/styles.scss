@@ -2,12 +2,13 @@
 @import "helpers/variables";
 @import "helpers/placeholder";
 
+@import "components/hamburger-menu";
+
 @import "layout/reset";
 @import "layout/header";
 @import "layout/footer";
 @import "layout/logo-container";
-
-@import "components/hamburger-menu";
+@import "layout/text-box";
 
 @import "pages/start";
 @import "pages/about";
@@ -31,16 +32,4 @@ h3 {
 h2, h3 {
   margin: 1em;
   text-align: center;
-}
-
-.text-box {
-  text-align: center;
-  padding: 0 3em 3em 3em;
-  min-height: 15em;
-  line-height: $lh;
-  font-weight: $fw;
-
-  p {
-    text-transform: none;
-  }
 }

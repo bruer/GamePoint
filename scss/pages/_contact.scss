@@ -7,21 +7,14 @@
     padding: 1em;
     border: 1px solid $gray;
     border-radius: 3px;
+
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 
     line-height: $lh;
     font-weight: $fw;
-  }
-
-  .row {
-    @extend %center;
-    width: 100%;
-  }
-
-  .col-75 {
-    width: 100%;
   }
 
   input, textarea {
@@ -39,6 +32,15 @@
       border: 2px solid $red;
     }
   }
+}
+
+.row {
+  @extend %center;
+  width: 100%;
+
+  .col-75 {
+    width: 100%;
+  }
 
   .submit {
     font-size: .8em;
@@ -50,13 +52,12 @@
       background: mediumseagreen;
     }
   }
+}
 
-  @media (min-width: 600px) {
-
-    .row {
-      flex-direction: row;
-      justify-content: flex-end;
-    }
+@media screen and (min-width: 760px) {
+  .row {
+    flex-direction: row;
+    justify-content: flex-end;
 
     .col-25 {
       width: 25%;
@@ -69,7 +70,15 @@
     }
 
     .submit {
-      width: 25%;
+      width: 10em;
+    }
+  }
+}
+
+@media screen and (min-width: 990px) {
+  .contact-main {
+    form {
+      width: 50%;
     }
   }
 }

@@ -1,10 +1,14 @@
 footer {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 1em;
+  height: 24em;
+  margin-top: 2em;
+
   background: $black;
   color: $white;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 
   ul {
     height: 75%;
@@ -13,7 +17,8 @@ footer {
     justify-content: space-around;
   }
 
-  li{
+  li {
+    margin: 3px;
     font-weight: $fw;
   }
 
@@ -21,6 +26,11 @@ footer {
     font-size: 1em;
     letter-spacing: $ls;
     margin: 1em;
+  }
+
+  h4 {
+    text-transform: uppercase;
+    color: $gray;
   }
 
   p {
@@ -35,47 +45,93 @@ footer {
       transition: all .3s ease;
     }
   }
+}
 
-  .info {
-    display: none;
-    width: 100%;
-    text-align: left;
-    margin: 10em;
-    letter-spacing: $ls;
+.info-box {
+  display: none;
+  width: 100%;
+  text-align: left;
+  margin: 5em;
+  letter-spacing: $ls;
 
-    h4 {
-      text-transform: uppercase;
-      color: $gray;
+  div {
+    // border: solid;
+    width: 33.333%;
+    // float: left;
+
+    .sm-icons, .contact, .info {
+      // border: solid;
+      width: 9em;
+      margin: auto;
     }
   }
+}
 
-  .footerlogo {
-    width: 10em;
+.footerlogo {
+  width: 10em;
+}
+
+.sm-icons {
+  li {
+    margin: 6px;
   }
 
-  .sm-icons {
-    ul {
-      align-items: center;
-    }
-
-    img {
-      height: 2em;
-    }
+  img {
+    height: 2em;
+    margin-left: 2em;
   }
+}
 
-  .fb-logo{
-    padding: 0 10px;
+.fb-logo{
+  padding: 0 10px;
+}
+
+@media screen and (min-width: 320px) {
+  footer {
+    margin-top: 5em;
   }
+}
 
-  @media screen and (min-width: 768px){
-
+@media screen and (min-width: 760px) {
+  footer {
     .footerlogo, h2, p {
       display: none;
     }
+  }
 
-    .info {
-      display: flex;
-      justify-content: space-evenly;
+  .info-box {
+    display: flex;
+    // display: block;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .info-box {
+    margin: 10em;
+  }
+}
+
+@supports (display: flex) {
+  .info-box {
+    width: 100%;
+    justify-content: space-evenly;
+
+    div {
+      // border: solid;
+      width: auto;
+
+      .sm-icons {
+        width: auto;
+
+        ul {
+          // border: solid;
+          align-items: center;
+        }
+
+        img {
+          margin-left: 0;
+        }
+      }
     }
   }
 }
