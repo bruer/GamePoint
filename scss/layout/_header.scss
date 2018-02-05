@@ -10,8 +10,7 @@ header {
   width: 100%;
   padding: 0 1em;
 
-  display: flex;
-  align-items: center;
+  @extend %center-vertically;
 
   position: fixed;
   z-index: 1;
@@ -35,8 +34,7 @@ header {
   font-size: .8em;
 
   ul {
-    display: flex;
-    justify-content: space-around;
+    @extend %center-space;
   }
 
   a {

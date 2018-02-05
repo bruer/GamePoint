@@ -2,22 +2,25 @@
   width: 100%;
 }
 
-%front-page-text-wrapper{
-  text-align: center;
-  padding: 0 3em 3em 3em;
-  min-height: 15em;
-  line-height: $lh;
-  font-weight: $fw;
-
-  // margin: 0 1em 1em 1em;
-  // font-size: .9em;
-
-  //kanske ändra padding
-}
-
 %center {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+%center-vertically {
+  display: flex;
+  align-items: center;
+}
+
+%center-space {
+  display: flex;
+  justify-content: space-around;
+}
+
+%center-wrap {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }

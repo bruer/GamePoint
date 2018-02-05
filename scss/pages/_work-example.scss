@@ -1,6 +1,6 @@
-.logo-wrap {
+.work-example {
   .logo-img {
-    top: 35%;
+    top: 40%;
   }
 
   h2 {
@@ -17,7 +17,7 @@
 }
 
 @media screen and (min-width: 300px) {
-  .logo-wrap {
+  .work-example {
     h2 {
       font-size: .8em;
     }
@@ -25,7 +25,7 @@
 }
 
 @media screen and (min-width: 400px) {
-  .logo-wrap {
+  .work-example {
     h2 {
       font-size: 1em;
     }
@@ -33,7 +33,7 @@
 }
 
 @media screen and (min-width: 550px) {
-  .logo-wrap {
+  .work-example {
     h2 {
       font-size: 1.5em;
     }
@@ -41,7 +41,7 @@
 }
 
 @media screen and (min-width: 800px) {
-  .logo-wrap {
+  .work-example {
     h2 {
       font-size: 2em;
     }
@@ -49,7 +49,7 @@
 }
 
 @media screen and (min-width: 1200px) {
-  .logo-wrap {
+  .work-example {
     h2 {
       font-size: 3em;
     }

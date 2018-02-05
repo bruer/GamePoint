@@ -1,11 +1,19 @@
 .logo-wrap {
   position: relative;
+
+  .logo-img {
+    width: 50%;
+    max-width: 50em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -60%);
+  }
 }
 
 .logo-background-image {
 
   @extend %background-image;
-
 
   @supports (object-fit: cover) {
     max-height: 38em;
@@ -15,13 +23,4 @@
       max-height: 56em;
     }
   }
-}
-
-.logo-img {
-  width: 60%;
-  max-width: 30em;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
 }
