@@ -9,6 +9,12 @@
 
   img {
     @extend %background-image;
+    filter: brightness(70%);
+
+    &:hover {
+      filter: brightness(100%);
+      @extend %hover-effect;
+    }
   }
 
   h3 {

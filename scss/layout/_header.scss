@@ -45,7 +45,7 @@ header {
 
     &:hover {
       color: $red;
-      transition: all .3s ease;
+      @extend %hover-effect;
     }
   }
 }
